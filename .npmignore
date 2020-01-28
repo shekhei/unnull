@@ -61,4 +61,6 @@ typings/
 .next
 src
 build
-
+tests
+.travis.yml
+tsconfig.*
