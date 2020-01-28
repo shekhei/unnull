@@ -13,4 +13,4 @@ deploy:
   on:
     tags: true
     repo: shekhei/unnull
-    branch: travis
+    branch: master
