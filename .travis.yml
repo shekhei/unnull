@@ -4,7 +4,6 @@ node_js:
 script:
 - npm run setup
 - npm run test
-- npm run build
 deploy:
   provider: npm
   email: shekhei@gmail.com
