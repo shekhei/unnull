@@ -59,4 +59,8 @@ typings/
 
 # next.js build output
 .next
-dist
+src
+build
+tests
+.travis.yml
+tsconfig.*
