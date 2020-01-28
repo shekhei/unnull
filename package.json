@@ -1,5 +1,5 @@
 {
-  "name": "unnull",
+  "name": "null-less",
   "version": "0.0.2",
   "description": "null, undefined, separate",
   "main": "dist/index.js",
@@ -18,7 +18,8 @@
   "keywords": [
     "null",
     "undefined",
-    "unnull"
+    "unnull",
+    "null-less"
   ],
   "author": "Wong Shek Hei Felix",
   "license": "MIT",
