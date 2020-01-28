@@ -2,9 +2,12 @@ language: node_js
 node_js:
 - lts/*
 - node
+install:
+ - npm install
+before_script:
+  - npm run build
 script:
-- npm run setup
-- npm run test
+  - npm run test
 deploy:
   provider: npm
   email: shekhei@gmail.com
@@ -13,4 +16,3 @@ deploy:
   on:
     tags: true
     repo: shekhei/unnull
-    branch: master
