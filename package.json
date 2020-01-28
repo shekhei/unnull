@@ -1,6 +1,6 @@
 {
   "name": "unnull",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "null, undefined, separate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
