@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- lts/*
+script:
+- npm run setup
+- npm run test
+- npm run build
+deploy:
+  provider: npm
+  email: shekhei@gmail.com
+  api_key:
+    secure: b89d8DuMswg7ybRgPOKTKq0wpK9GCvwtNeOlBjGvxAJJ4QXIGUMuOEizvRhQubyWEU/mxmQuQnL/7E8FiyBMKJR2ezQrQPgZpknThyCO+1NVt1jeLHb68L7oxAknxcQfBO3yu8ZKLkglU9/F63NDgErvmVN0EFSdUANJBnjmvQN2yFINVraxU+iHrf5ahErtUmyYzftla75zhyJo3JlzOmmhKkEws77MWzRDuBU/Op93h66nG/dVbDm4t08tgue6vaUa+dwhrq1mpdZo1oYE7GPr4bVnTkL4IOnor4mx7VtjMfG6RogPBYo0vLf6cmvwH/Z+XMrOEjLmSiL8LM8t6Qwxkjggh8PmTY/XcNWaBWOSv2ZIx7BRyxkT3FoEvwQLiGreF6DKb50/mSBWVxQFguWImLT6LFGQ4dH/m93GMOA5Xp8OWHs64WgRpf8iv+1bv9f/WXgUHiDtlFyZeoQcQ5X80HwvOxD8Dl1t0MJ9+8W808rXJj93MdwQtVyR1NykEEybP/CADjSYrvxK7K/V9auepl0V+lirlZupuzIm7vrd5O/SJUNTX1NraPPrbjjCCOnd/+O18jAPzs/NOLNulWS5R7IRoYSP7K7oOAGPPMjYIl6CAQgtNtfXAypg2TXikAez2frAdlpYejRTcOQjpohFk1mKlUuLyWb1lChi0/s=
+  on:
+    tags: true
+    repo: shekhei/unnull
+    branch: travis
