@@ -1,0 +1,37 @@
+{
+  "name": "unnull",
+  "version": "0.0.1",
+  "description": "null, undefined, separate",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm build",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhei/unnull.git"
+  },
+  "keywords": [
+    "null",
+    "undefined",
+    "unnull"
+  ],
+  "author": "Wong Shek Hei Felix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekhei/unnull/issues"
+  },
+  "homepage": "https://github.com/shekhei/unnull#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
