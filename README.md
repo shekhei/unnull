@@ -1,4 +1,4 @@
-# Unnull
+# Unnull [![Build Status](https://travis-ci.org/shekhei/unnull.svg?branch=master)](https://travis-ci.org/shekhei/unnull)
 
 This library takes a value, and seperates the null and undefined into `None` and the rest into `Some`. It works like many javascript `Maybe` libraries, originally it was named `Maybi`, but after some careful thought, I decided to call it "Unnull" and rewrote some of the functionalities.
 
